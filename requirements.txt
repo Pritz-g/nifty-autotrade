@@ -1,17 +1,20 @@
 
-# Core web server
+# requirements.txt
+
+# Server
 gunicorn==22.0.0
 
-# Your framework (choose one if applicable)
-flask==3.0.3            # if your app uses Flask
-# fastapi==0.115.5      # if it uses FastAPI
-# uvicorn==0.32.0       # FastAPI typical server (not needed with gunicorn unless using workers)
+# Framework (pick what you actually use)
+flask==3.0.3
+# fastapi==0.115.5
+# uvicorn[standard]==0.32.0
 
-# Angel One SmartAPI client
-SmartApi==1.2.10        # Example; use the version you’ve tested locally
+# Angel One SmartAPI client — use the published version
+SmartApi==1.1.0
 
-# The missing dependency
+# Required by SmartApi
 logzero==1.7.0
 
-# Any other packages your app needs
+# Common utilities (example)
 requests==2.32.3
+python-dotenv==1.0.1
