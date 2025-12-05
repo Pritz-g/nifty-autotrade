@@ -9,7 +9,7 @@ IMPORTANT:
 import os
 import json
 from flask import Flask, request, jsonify
-from SmartApi import SmartConnect
+from SmartApi.smartConnect import SmartConnect
 import pyotp
  
 app = Flask(__name__)
