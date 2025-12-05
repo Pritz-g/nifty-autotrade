@@ -1,20 +1,14 @@
 
 # requirements.txt
-
-# Server
 gunicorn==22.0.0
-
-# Framework (pick what you actually use)
 flask==3.0.3
-# fastapi==0.115.5
-# uvicorn[standard]==0.32.0
 
-# Angel One SmartAPI client — use the published version
+# SmartAPI client (PyPI only has 1.1.0 per your logs)
 SmartApi==1.1.0
 
-# Required by SmartApi
-logzero==1.7.0
+# Use maintained crypto
+pycryptodome==3.20.0
 
-# Common utilities (example)
+logzero==1.7.0
 requests==2.32.3
 python-dotenv==1.0.1
