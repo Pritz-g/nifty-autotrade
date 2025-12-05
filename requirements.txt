@@ -1,3 +1,17 @@
-flask
-smartapi-python
-gunicorn
+
+# Core web server
+gunicorn==22.0.0
+
+# Your framework (choose one if applicable)
+flask==3.0.3            # if your app uses Flask
+# fastapi==0.115.5      # if it uses FastAPI
+# uvicorn==0.32.0       # FastAPI typical server (not needed with gunicorn unless using workers)
+
+# Angel One SmartAPI client
+SmartApi==1.2.10        # Example; use the version you’ve tested locally
+
+# The missing dependency
+logzero==1.7.0
+
+# Any other packages your app needs
+requests==2.32.3
