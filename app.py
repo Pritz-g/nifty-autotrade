@@ -19,8 +19,8 @@ CLIENT_ID = os.environ.get("SMART_CLIENT_ID")
 API_KEY = os.environ.get("SMART_API_KEY")
 PASSWORD = os.environ.get("SMART_PASSWORD")
 TOTP_SECRET = os.environ.get("SMART_TOTP_SECRET")
-SYMBOL_TOKEN = os.environ.get("SYMBOL_TOKEN", "999999")
-EXCHANGE = "NFO"
+SYMBOL_TOKEN = os.environ.get("SYMBOL_TOKEN", "256265")
+EXCHANGE = "NSE"
 QTY = int(os.environ.get("ORDER_QTY", 2))
 DRY_RUN = os.environ.get("DRY_RUN", "True").lower() == "false"
  
